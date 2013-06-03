@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAE3EFB9175C38FB00CCC81F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE3EFB8175C38FB00CCC81F /* UIKit.framework */; };
+		FAE3EFBB175C38FB00CCC81F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE3EFBA175C38FB00CCC81F /* Foundation.framework */; };
+		FAE3EFBD175C38FB00CCC81F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE3EFBC175C38FB00CCC81F /* CoreGraphics.framework */; };
+		FAE3EFBF175C38FB00CCC81F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE3EFBE175C38FB00CCC81F /* CoreData.framework */; };
+		FAE3EFC5175C38FB00CCC81F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FAE3EFC3175C38FB00CCC81F /* InfoPlist.strings */; };
+		FAE3EFC7175C38FB00CCC81F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE3EFC6175C38FB00CCC81F /* main.m */; };
+		FAE3EFCB175C38FB00CCC81F /* dayworkerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE3EFCA175C38FB00CCC81F /* dayworkerAppDelegate.m */; };
+		FAE3EFCD175C38FB00CCC81F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FAE3EFCC175C38FB00CCC81F /* Default.png */; };
+		FAE3EFCF175C38FB00CCC81F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAE3EFCE175C38FB00CCC81F /* Default@2x.png */; };
+		FAE3EFD1175C38FB00CCC81F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAE3EFD0175C38FB00CCC81F /* Default-568h@2x.png */; };
+		FAE3EFD4175C38FB00CCC81F /* dayworker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FAE3EFD2175C38FB00CCC81F /* dayworker.xcdatamodeld */; };
+		FAE3EFDC175C38FB00CCC81F /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE3EFDB175C38FB00CCC81F /* SenTestingKit.framework */; };
+		FAE3EFDD175C38FB00CCC81F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE3EFB8175C38FB00CCC81F /* UIKit.framework */; };
+		FAE3EFDE175C38FB00CCC81F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE3EFBA175C38FB00CCC81F /* Foundation.framework */; };
+		FAE3EFDF175C38FB00CCC81F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE3EFBE175C38FB00CCC81F /* CoreData.framework */; };
+		FAE3EFE7175C38FB00CCC81F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FAE3EFE5175C38FB00CCC81F /* InfoPlist.strings */; };
+		FAE3EFEA175C38FB00CCC81F /* dayworkerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE3EFE9175C38FB00CCC81F /* dayworkerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAE3EFE0175C38FB00CCC81F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAE3EFAD175C38FB00CCC81F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAE3EFB4175C38FB00CCC81F;
+			remoteInfo = dayworker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAE3EFB5175C38FB00CCC81F /* dayworker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dayworker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAE3EFB8175C38FB00CCC81F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FAE3EFBA175C38FB00CCC81F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FAE3EFBC175C38FB00CCC81F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FAE3EFBE175C38FB00CCC81F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		FAE3EFC2175C38FB00CCC81F /* dayworker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "dayworker-Info.plist"; sourceTree = "<group>"; };
+		FAE3EFC4175C38FB00CCC81F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FAE3EFC6175C38FB00CCC81F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FAE3EFC8175C38FB00CCC81F /* dayworker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "dayworker-Prefix.pch"; sourceTree = "<group>"; };
+		FAE3EFC9175C38FB00CCC81F /* dayworkerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dayworkerAppDelegate.h; sourceTree = "<group>"; };
+		FAE3EFCA175C38FB00CCC81F /* dayworkerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dayworkerAppDelegate.m; sourceTree = "<group>"; };
+		FAE3EFCC175C38FB00CCC81F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		FAE3EFCE175C38FB00CCC81F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		FAE3EFD0175C38FB00CCC81F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		FAE3EFD3175C38FB00CCC81F /* dayworker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = dayworker.xcdatamodel; sourceTree = "<group>"; };
+		FAE3EFDA175C38FB00CCC81F /* dayworkerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dayworkerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAE3EFDB175C38FB00CCC81F /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		FAE3EFE4175C38FB00CCC81F /* dayworkerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "dayworkerTests-Info.plist"; sourceTree = "<group>"; };
+		FAE3EFE6175C38FB00CCC81F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FAE3EFE8175C38FB00CCC81F /* dayworkerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dayworkerTests.h; sourceTree = "<group>"; };
+		FAE3EFE9175C38FB00CCC81F /* dayworkerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dayworkerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAE3EFB2175C38FB00CCC81F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE3EFB9175C38FB00CCC81F /* UIKit.framework in Frameworks */,
+				FAE3EFBB175C38FB00CCC81F /* Foundation.framework in Frameworks */,
+				FAE3EFBD175C38FB00CCC81F /* CoreGraphics.framework in Frameworks */,
+				FAE3EFBF175C38FB00CCC81F /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE3EFD6175C38FB00CCC81F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE3EFDC175C38FB00CCC81F /* SenTestingKit.framework in Frameworks */,
+				FAE3EFDD175C38FB00CCC81F /* UIKit.framework in Frameworks */,
+				FAE3EFDE175C38FB00CCC81F /* Foundation.framework in Frameworks */,
+				FAE3EFDF175C38FB00CCC81F /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAE3EFAC175C38FB00CCC81F = {
+			isa = PBXGroup;
+			children = (
+				FAE3EFC0175C38FB00CCC81F /* dayworker */,
+				FAE3EFE2175C38FB00CCC81F /* dayworkerTests */,
+				FAE3EFB7175C38FB00CCC81F /* Frameworks */,
+				FAE3EFB6175C38FB00CCC81F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAE3EFB6175C38FB00CCC81F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAE3EFB5175C38FB00CCC81F /* dayworker.app */,
+				FAE3EFDA175C38FB00CCC81F /* dayworkerTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAE3EFB7175C38FB00CCC81F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAE3EFB8175C38FB00CCC81F /* UIKit.framework */,
+				FAE3EFBA175C38FB00CCC81F /* Foundation.framework */,
+				FAE3EFBC175C38FB00CCC81F /* CoreGraphics.framework */,
+				FAE3EFBE175C38FB00CCC81F /* CoreData.framework */,
+				FAE3EFDB175C38FB00CCC81F /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FAE3EFC0175C38FB00CCC81F /* dayworker */ = {
+			isa = PBXGroup;
+			children = (
+				FAE3EFC9175C38FB00CCC81F /* dayworkerAppDelegate.h */,
+				FAE3EFCA175C38FB00CCC81F /* dayworkerAppDelegate.m */,
+				FAE3EFD2175C38FB00CCC81F /* dayworker.xcdatamodeld */,
+				FAE3EFC1175C38FB00CCC81F /* Supporting Files */,
+			);
+			path = dayworker;
+			sourceTree = "<group>";
+		};
+		FAE3EFC1175C38FB00CCC81F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAE3EFC2175C38FB00CCC81F /* dayworker-Info.plist */,
+				FAE3EFC3175C38FB00CCC81F /* InfoPlist.strings */,
+				FAE3EFC6175C38FB00CCC81F /* main.m */,
+				FAE3EFC8175C38FB00CCC81F /* dayworker-Prefix.pch */,
+				FAE3EFCC175C38FB00CCC81F /* Default.png */,
+				FAE3EFCE175C38FB00CCC81F /* Default@2x.png */,
+				FAE3EFD0175C38FB00CCC81F /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAE3EFE2175C38FB00CCC81F /* dayworkerTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAE3EFE8175C38FB00CCC81F /* dayworkerTests.h */,
+				FAE3EFE9175C38FB00CCC81F /* dayworkerTests.m */,
+				FAE3EFE3175C38FB00CCC81F /* Supporting Files */,
+			);
+			path = dayworkerTests;
+			sourceTree = "<group>";
+		};
+		FAE3EFE3175C38FB00CCC81F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAE3EFE4175C38FB00CCC81F /* dayworkerTests-Info.plist */,
+				FAE3EFE5175C38FB00CCC81F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAE3EFB4175C38FB00CCC81F /* dayworker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAE3EFED175C38FB00CCC81F /* Build configuration list for PBXNativeTarget "dayworker" */;
+			buildPhases = (
+				FAE3EFB1175C38FB00CCC81F /* Sources */,
+				FAE3EFB2175C38FB00CCC81F /* Frameworks */,
+				FAE3EFB3175C38FB00CCC81F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dayworker;
+			productName = dayworker;
+			productReference = FAE3EFB5175C38FB00CCC81F /* dayworker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAE3EFD9175C38FB00CCC81F /* dayworkerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAE3EFF0175C38FB00CCC81F /* Build configuration list for PBXNativeTarget "dayworkerTests" */;
+			buildPhases = (
+				FAE3EFD5175C38FB00CCC81F /* Sources */,
+				FAE3EFD6175C38FB00CCC81F /* Frameworks */,
+				FAE3EFD7175C38FB00CCC81F /* Resources */,
+				FAE3EFD8175C38FB00CCC81F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAE3EFE1175C38FB00CCC81F /* PBXTargetDependency */,
+			);
+			name = dayworkerTests;
+			productName = dayworkerTests;
+			productReference = FAE3EFDA175C38FB00CCC81F /* dayworkerTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAE3EFAD175C38FB00CCC81F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = dayworker;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "3i Computer";
+			};
+			buildConfigurationList = FAE3EFB0175C38FB00CCC81F /* Build configuration list for PBXProject "dayworker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FAE3EFAC175C38FB00CCC81F;
+			productRefGroup = FAE3EFB6175C38FB00CCC81F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAE3EFB4175C38FB00CCC81F /* dayworker */,
+				FAE3EFD9175C38FB00CCC81F /* dayworkerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAE3EFB3175C38FB00CCC81F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE3EFC5175C38FB00CCC81F /* InfoPlist.strings in Resources */,
+				FAE3EFCD175C38FB00CCC81F /* Default.png in Resources */,
+				FAE3EFCF175C38FB00CCC81F /* Default@2x.png in Resources */,
+				FAE3EFD1175C38FB00CCC81F /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE3EFD7175C38FB00CCC81F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE3EFE7175C38FB00CCC81F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FAE3EFD8175C38FB00CCC81F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAE3EFB1175C38FB00CCC81F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE3EFC7175C38FB00CCC81F /* main.m in Sources */,
+				FAE3EFCB175C38FB00CCC81F /* dayworkerAppDelegate.m in Sources */,
+				FAE3EFD4175C38FB00CCC81F /* dayworker.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE3EFD5175C38FB00CCC81F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE3EFEA175C38FB00CCC81F /* dayworkerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAE3EFE1175C38FB00CCC81F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAE3EFB4175C38FB00CCC81F /* dayworker */;
+			targetProxy = FAE3EFE0175C38FB00CCC81F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAE3EFC3175C38FB00CCC81F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAE3EFC4175C38FB00CCC81F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FAE3EFE5175C38FB00CCC81F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAE3EFE6175C38FB00CCC81F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAE3EFEB175C38FB00CCC81F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAE3EFEC175C38FB00CCC81F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAE3EFEE175C38FB00CCC81F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "dayworker/dayworker-Prefix.pch";
+				INFOPLIST_FILE = "dayworker/dayworker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FAE3EFEF175C38FB00CCC81F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "dayworker/dayworker-Prefix.pch";
+				INFOPLIST_FILE = "dayworker/dayworker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FAE3EFF1175C38FB00CCC81F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/dayworker.app/dayworker";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "dayworker/dayworker-Prefix.pch";
+				INFOPLIST_FILE = "dayworkerTests/dayworkerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		FAE3EFF2175C38FB00CCC81F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/dayworker.app/dayworker";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "dayworker/dayworker-Prefix.pch";
+				INFOPLIST_FILE = "dayworkerTests/dayworkerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAE3EFB0175C38FB00CCC81F /* Build configuration list for PBXProject "dayworker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAE3EFEB175C38FB00CCC81F /* Debug */,
+				FAE3EFEC175C38FB00CCC81F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAE3EFED175C38FB00CCC81F /* Build configuration list for PBXNativeTarget "dayworker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAE3EFEE175C38FB00CCC81F /* Debug */,
+				FAE3EFEF175C38FB00CCC81F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FAE3EFF0175C38FB00CCC81F /* Build configuration list for PBXNativeTarget "dayworkerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAE3EFF1175C38FB00CCC81F /* Debug */,
+				FAE3EFF2175C38FB00CCC81F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FAE3EFD2175C38FB00CCC81F /* dayworker.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FAE3EFD3175C38FB00CCC81F /* dayworker.xcdatamodel */,
+			);
+			currentVersion = FAE3EFD3175C38FB00CCC81F /* dayworker.xcdatamodel */;
+			path = dayworker.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FAE3EFAD175C38FB00CCC81F /* Project object */;
+}
